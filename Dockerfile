@@ -1,4 +1,4 @@
-ARG version="18.0.4"
+ARG version="18.04"
 FROM ubuntu:$version
 RUN echo "version... "$version
 ARG licensekey="100..2000"
